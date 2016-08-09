@@ -1,0 +1,26 @@
+.container {
+  background-color: black;
+  padding: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -170px 0 0 -253px;
+}
+
+body {
+  background-color: #272824;
+}
+
+h2, p {
+  margin: 0 auto;
+  color: #D8E6F0;
+}
+
+a {
+  color: #C3C2D9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #899298;
+}
