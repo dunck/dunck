@@ -1,5 +1,5 @@
 .container {
-  background-color: black;
+  background: black;
   padding: 3px;
   position: absolute;
   top: 50%;
@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #272824;
+  background: linear-gradient(141deg, #272824, #31002F);
 }
 
 h2, p {
