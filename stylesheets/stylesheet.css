@@ -1,26 +1,30 @@
 .container {
-  background: black;
-  padding: 3px;
+  background: #B57800;
+  border-radius: 8px;
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -220px 0 0 -253px;
 }
 
+.back {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.icon {
+  width: 40px;
+  margin: 0 5 0 5;
+}
+
+.links {
+  text-align: center;
+}
+
 body {
-  background: linear-gradient(141deg, #787D86, #31002F);
+  background-color: #00265E;
 }
 
-h2, p {
-  margin: 0 auto;
-  color: #D8E6F0;
-}
-
-a {
-  color: #C3C2D9;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #899298;
+h1 {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
 }
