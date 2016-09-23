@@ -1,0 +1,58 @@
+:root {
+  --curve: 8px;
+  --pad: 20px;
+  --containerwidth: 500px;
+  --white: #FFFFFF;
+  --orange: #B57800;
+  --blue: #00999E;
+  --lime: #00A803;
+}
+
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+.frame {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: var(--containerwidth);
+  background: var(--white);
+}
+
+.titlebox {
+  background: var(--orange);
+}
+.title {
+  font-size: 40px;
+  color: var(--white);
+  padding: var(--pad) 0;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+  padding: var(--pad) 0;
+}
+
+.icons img {
+  width: 40px;
+  margin: 0 20 0 20;
+}
